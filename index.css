@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family: myriad pro regular;
+	font-size: 20px;
+	color: #000000;
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    background-color: #f6f5f5;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0,2);
+	padding: 0px 5%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+section{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+.text-container{
+    position:absolute;
+	left: 600px;
+	color:black;
+}
+  
+  .about {
+    top: 30px;
+  }
+  
+  .about-center {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem 5rem;
+  }
+  
+  .title {
+    margin: 0rem 0 3rem 0;
+    text-align: center;
+  }
+  
+  .title h1 {
+    font-size: 3rem;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .title h1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    transform: translate(-50%, -50%);
+    background-color: #dd9a05;
+    width: 50%;
+    height: 0.4rem;
+    z-index: 1;
+  }
+  
+  
+  .right h1 {
+    margin-bottom: 2rem;
+  }
+  
+  .right p {
+    line-height: 2;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .right h1 span {
+    color: #dd9a05;
+  }
+  
+  .theme {
+    background-color: #000;
+  }
+  
+  .theme .title {
+    color: #fff;
+  }
+  
+  .services-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+  }
+  
+  .service {
+    color: #fff;
+    background-color: #111;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+  }
+  
+  .service span {
+    color: #dd9a05;
+    font-size: 4rem;
+  }
+  
+  .service h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service p {
+    font-size: 1.4rem;
+    color: #f1f1f1;
+  }
+footer{
+	text-align: center;
+	padding: 3px;
+	background-color: black;
+	color: white;
+}
+
